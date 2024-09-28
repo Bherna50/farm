@@ -17,11 +17,15 @@
     font-size: 1.25em;
     }
     body {
-
+    margin: auto;
+    }
+    img {
+    justify-content: center;
     }
     header {
     color:var(--White);
     background-color: var(--Green);
+
     }
     h1,h2,h3 {
     font-family: "Irish Grover", system-ui;
@@ -34,6 +38,8 @@
     }
     h3 {
     font-size: 1.25em;
+    text-align: center;
+
     }
     nav {
 
