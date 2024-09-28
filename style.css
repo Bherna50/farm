@@ -1,32 +1,48 @@
     /* -------------------- IMPORTED FONTS -------------------------------------- */
-    @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap')
+    @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
     /*-------------------- CSS RESET ---------------------------------------------------*/
-
+    
     /* -------------------- ROOT VARIABLES --------------------------------------- */
     :root {
-    H1: 2.5em
-    H2: 1.75em
-    H3, Text: 1.25em
-    Colors
-    Green: #06A816
-    Orange: #E75D02
-    Black: #000000
-    White: #ffffff
+    --Green: #06A816;
+    --Orange: #E75D02;
+    --Black: #000000;
+    --White: #ffffff;
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+    html {
 
-    /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+    }
+    body {
     
-    /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 
+    }
+    header {
+
+    }
+    nav {
+
+    }
+    [href="#top"] {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 10px 0px 0px;
+    }
+    /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+    @media screen {
+        
+    }
+    /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+    @media screen {
+        
+    }
     /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
-
-Add to text content
-Habibi
-Add to headings
-Heading: "Irish Grover
+    @media screen {
+        
+    }
 
 
 
