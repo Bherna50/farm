@@ -9,38 +9,65 @@
     --Orange: #E75D02;
     --Black: #000000;
     --White: #ffffff;
+    --font-family: "Irish Grover", system-ui;
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
     html {
-
+    font-family: Habibi;
+    font-size: 1.25em;
     }
     body {
-    
 
     }
     header {
-
+    color:var(--White);
+    background-color: var(--Green);
+    }
+    h1,h2,h3 {
+    font-family: "Irish Grover", system-ui;
+    }
+    h1 {
+    font-size: 2.5em;
+    }
+    h2 {
+    font-size: 1.75em;
+    }
+    h3 {
+    font-size: 1.25em;
     }
     nav {
 
+    }
+    li {
+    color:var(--White);
+    background-color: var(--Orange);
+    list-style: none;
+    display:inline-flex;
     }
     [href="#top"] {
         position: fixed;
         bottom: 0px;
         right: 0px;
         border-radius: 10px 0px 0px;
+        color:var(--White);
+        background-color: var(--Orange);
+    }
+    footer {
+    color: var(--White);
+    background-color: var(--Green);
+    
     }
     /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-    @media screen {
+    @media () {
         
     }
     /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-    @media screen {
+    @media () {
         
     }
     /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
-    @media screen {
+    @media () {
         
     }
 
