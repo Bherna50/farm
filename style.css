@@ -69,12 +69,11 @@
     color: var(--White);
     background-color: var(--Green);
     text-align: center;
-    margin-bottom: 10px;
     text-decoration: none;
     }
     small {
         background-color: var(--White);
-        margin: auto;
+        margin-bottom: 20px;
         color: var(--Green);
         text-align: center;
         text-decoration: none;
