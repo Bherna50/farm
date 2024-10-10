@@ -13,19 +13,22 @@
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
     html {
-    font-family: Habibi;
+    
     font-size: 1.25em;
     }
     body {
     margin: auto;
+    font-family: Habibi;
     }
     img {
     justify-content: center;
+    margin: 20px 100px;
+    
     }
     header {
     color:var(--White);
     background-color: var(--Green);
-
+    margin: 50px 0px;
     }
     h1,h2,h3 {
     font-family: "Irish Grover", system-ui;
@@ -42,13 +45,16 @@
 
     }
     nav {
-
+        justify-content: center;
+        text-align: center;
+        display:block;
     }
     li {
     color:var(--White);
     background-color: var(--Orange);
     list-style: none;
-    display:inline-flex;
+    display: block;
+    margin: 15px;
     }
     [href="#top"] {
         position: fixed;
@@ -57,23 +63,33 @@
         border-radius: 10px 0px 0px;
         color:var(--White);
         background-color: var(--Orange);
+        text-decoration: none;
     }
     footer {
     color: var(--White);
     background-color: var(--Green);
-    
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    }
+    small {
+        background-color: var(--White);
+        margin: auto;
+        color: var(--Green);
+        text-align: center;
+        text-decoration: none;
     }
     /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-    @media (min-width: 836px) {
+    @media (min-width: 834px) {
         
     }
     /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-    @media (min-width: 1100px) {
+    @media (min-width: 1280px) {
         
     }
     /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
         
     }
 
