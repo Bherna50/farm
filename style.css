@@ -2,7 +2,24 @@
     @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
     /*-------------------- CSS RESET ---------------------------------------------------*/
-    
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
     /* -------------------- ROOT VARIABLES --------------------------------------- */
     :root {
     --Green: #06A816;
@@ -12,6 +29,10 @@
     --font-family: "Irish Grover", system-ui;
     }
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+    a:focus {
+  
+    }
+    
     html {
     
     font-size: 1.25em;
