@@ -87,7 +87,7 @@
         text-decoration: none;
     }
     figure{
-
+        display: block;
     }
     figcaption {
         text-align: center;
@@ -108,16 +108,22 @@
     }
     /*-------------------- MEDIA QUERY (medium) --------------------------------*/
     @media (min-width: 834px) {
-        
+        figure {
+        display: grid;
+        }
     }
     /*-------------------- MEDIA QUERY (large) ------------------------------------*/
     @media (min-width: 1280px) {
-        
+        figure{
+        display: grid;
+        }
     }
     /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
     @media (min-width: 1440px) {
-        
+        figure {
+        display: inline-flex;
+        }
     }
 
 
