@@ -86,6 +86,13 @@
         background-color: var(--Orange);
         text-decoration: none;
     }
+    figure{
+
+    }
+    figcaption {
+        text-align: center;
+
+    }
     footer {
     color: var(--White);
     background-color: var(--Green);
